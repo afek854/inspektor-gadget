@@ -224,6 +224,7 @@ func (t *Tracer) run() {
 			Pid:           bpfEvent.Pid,
 			Tid:           bpfEvent.Tid,
 			Ppid:          bpfEvent.Ppid,
+			Ptid:          bpfEvent.Ptid,
 			Uid:           bpfEvent.Uid,
 			Gid:           bpfEvent.Gid,
 			LoginUid:      bpfEvent.Loginuid,
